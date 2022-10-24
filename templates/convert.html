@@ -1,0 +1,38 @@
+
+
+{% load static %}
+<html>
+<head>
+    
+    <title>Amma RD</title>
+    <link rel="stylesheet" href="{% static 'css/profile.css' %}">
+</head>
+<body>
+        
+
+        
+            <div id="div1"><br>
+            <form id="form1" action="home" method="POST" enctype="multipart/form-data">
+                {% csrf_token%}
+                
+                
+                
+                <input class = "pstuff" id="file" type="file"  name="document" multiple/><br><br>
+                
+
+                <input class="pstuff"id="post" onclick="validate()" type="submit"  value="Submit"><br><br>
+                
+            
+        
+    </form>
+
+    
+    <p style="text-align:center; font-size:20px; color:dodgerblue; font-style:normal">{{message}}</p>
+   
+    </div>
+    
+
+</body>
+
+
+</html>

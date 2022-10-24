@@ -1,0 +1,146 @@
+.pstuff{
+    align-self: center;
+    border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 15px;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+
+    
+    display: inline;
+    clear: left;
+   
+    text-align: left;
+}
+
+#title{
+  align-self: center;
+  border: 1px solid #ccc;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  -moz-box-shadow: 2px 2px 3px #666;
+  -webkit-box-shadow: 2px 2px 3px #666;
+  box-shadow: 2px 2px 3px #666;
+  font-size: 15px;
+  padding: 4px 7px;
+  outline: 0;
+  -webkit-appearance: none;
+  width: 300px;
+  
+  display: inline;
+  clear: left;
+ 
+  text-align: left;
+}
+
+#text{
+
+  
+    border: 1px solid #ccc;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    -moz-box-shadow: 2px 2px 3px #666;
+    -webkit-box-shadow: 2px 2px 3px #666;
+    box-shadow: 2px 2px 3px #666;
+    font-size: 15px;
+    padding: 4px 7px;
+    outline: 0;
+    -webkit-appearance: none;
+    height: 100px;
+    width: 300px;
+    white-space: pre-line;
+    
+    
+    
+   
+    
+}
+#form1{
+    text-align: center;
+    
+    top:20%;
+    right:0;
+    left:0;
+}
+
+#post{
+  
+  
+    width: 100px;
+    height: 30px;
+    border-radius: 18px;
+    background-color: #1c89ff;
+    border: solid 1px transparent;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 100;
+    cursor: pointer;
+    transition: all .1s ease-in-out;
+    text-align: center;
+  
+  }
+  #divposts{
+    margin: 10px;
+    border: none;
+    border-left: 1px rgb(255, 255, 255);
+    border-right: 1px rgb(255, 255, 255);
+    border-top: 1px solid #c4c3c3;
+    border-bottom: 1px rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    border-style: solid;
+    
+    border-width: 1.2px; 
+    text-align: justify;
+    padding: 20px 50px;
+    top:50%;
+    right:0;
+    left:0;
+  }
+
+ #del{
+
+  float: right;
+ }
+  #span{
+    color: darkgrey;
+    font-style: italic;
+  }
+  
+  #img1{
+
+    display: block;
+   margin-left: auto;
+    margin-right: auto;
+   width: 50%;
+   box-shadow: 2px 2px 3px #666;
+}
+#newline{
+  display: inline;
+}
+#ptitle{
+
+  color: #1c89ff;
+}
+
+#button1{
+  width: 100px;
+  height: 30px;
+  border-radius: 18px;
+  background-color: #ffe601;
+  border: solid 1px transparent;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 100;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+  
+}
